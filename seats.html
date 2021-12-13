@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="seats.css" />
+  <title>Movie Seat Booking</title>
+</head>
+
+<body>
+  <nav>
+    <a href="#" class="logo">
+      GRAB<span>ATICKET</span>
+    </a>
+
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="booking.html">Movies</a></li>
+      <li><a href="#">Series</a></li>
+    </ul>
+
+    <div class="profile">
+      <a href="login.html">Login
+        <i class="fas fa-user" style="color:white;"></i>
+      </a>
+
+    </div>
+  </nav>
+  
+  <form action="seats.php" method="POST">
+    <section>
+      <div class="movie-container">
+        <label>Pick Show Time:</label>
+        <select id="movie" name='time'>
+          <option name='time' value="9">9 PM</option>
+          <option value="6">6 PM</option>
+          <option value="10">10 AM</option>
+        </select>
+      </div>
+
+      <ul class="showcase">
+        <li>
+          <div class="seat"></div>
+          <small>N/A</small>
+        </li>
+
+        <li>
+          <div class="seat selected"></div>
+          <small>Selected</small>
+        </li>
+
+        <li>
+          <div class="seat occupied"></div>
+          <small>Occupied</small>
+        </li>
+      </ul>
+
+      <div class="container">
+        <div class="screen"></div>
+        <div class="row">
+          <input type="checkbox" name="seat[]" id="seat" value="a1" class="seat">
+          <input type="checkbox" name="seat[]" id="seat" value="a2" class="seat">
+          <input type="checkbox" name="seat[]" id="seat" value="a3" class="seat">
+          <input type="checkbox" name="seat[]" id="seat" value="a4" class="seat">
+          <input type="checkbox" name="seat[]" id="seat" value="a5" class="seat">
+          <input type="checkbox" name="seat[]" id="seat" value="a6" class="seat">
+          <input type="checkbox" name="seat[]" id="seat" value="a7" class="seat">
+          <input type="checkbox" name="seat[]" id="seat" value="a8" class="seat">
+     
+        </div>
+        <div class="row">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+        </div>
+        <div class="row">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+        </div>
+        <div class="row">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+        </div>
+        <div class="row">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+        </div>
+        <div class="row">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+          <input type="checkbox" name="" id="" class="seat">
+        </div>
+
+      </div>
+      <input type="submit" name="submit" class="mainbtn">
+    </section>
+  </form>
+  
+</body>
+
+</html>

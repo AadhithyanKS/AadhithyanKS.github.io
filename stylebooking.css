@@ -45,7 +45,7 @@ nav .menu li a{
 
 .main{
     color:white;
-    height: 60vh;
+    height:90vh;
     border-bottom: 1px solid white;
 }
 .main-desc{
@@ -59,7 +59,21 @@ nav .menu li a{
     font-size: 50px;
 }
 .main p{
-    letter-spacing: 4px;
+    letter-spacing: 3px;
+}
+.main .details{
+    margin-top:-30px;
+    color:orange
+}
+.main .desc{
+    letter-spacing: 1px;
+    text-transform: none;
+    width: 50%;
+}
+.main .starring{
+    letter-spacing: 1px;
+    text-transform: none;
+    color:grey;
 }
 .main img{
     height: 100%;
@@ -80,33 +94,17 @@ nav .menu li a{
     border:1px solid white;
     border-radius: 10px;
     padding:5px 10px;
-    background:transparent;
 }
 .mainbtn:hover{
     background: white;
     color:black;
 }
 
-.recommended{
-    display: flex;
-    margin-top: 10px;
-}
-.recommended img{
-    border-radius: 15px;
-    height: 50vh;
-    width: 220px;
-    object-fit: cover;
-    margin-left: 35px;
-}
-
-.recommended img:hover{
-    transform: translateY(-15px);
-    transition: ease-in .15s;
-}
-
 footer{
     height: 10vh;
     width: 100%;
+    position: absolute;
+    bottom: 0;
     background: rgb(27, 27, 27);
 }
 footer p{
@@ -115,7 +113,7 @@ footer p{
     align-items: center;
     text-transform: uppercase;
     font-size: 15px;
-    padding: 20px;
+    margin-top:30px;
 }
 
 /*----------------------------------------------------------------------------------------------------------- */
