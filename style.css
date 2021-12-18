@@ -1,79 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
-
-body{
-    margin:0;
-    padding:0;
-    font-family: Poppins;
-    background:linear-gradient(to right,rgba(0,0,0,0.95),rgba(0,0,0,0.9)),url(img/bg.jpg);
-}
 *{
-    box-sizing: border-box;
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
 }
-a{
-    text-decoration: none;
+a,a:hover{
     color:white;
+    text-decoration: none;
 }
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
-    background-color: black;
+h1{
+    color:white;
+    text-transform: uppercase;
+}
+.navbar{
+    background:rgb(22, 22, 22);
     width: 100%;
-    position: fixed;
 }
-nav .menu{
-    display: flex;
-}
-nav a{
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        font-weight: 500;
-        line-height: 40px;
-}
-nav .menu li a{
-    padding:0 22px;
-}
-.logo{
+.navbar-brand{
     font-weight: 500;
     letter-spacing: 2px;
     font-size: 1.4rem;
 }
-.logo span{
-    color:orange;
+.nav-link{
+    text-transform: uppercase;
+    font-weight: 500;
+    color:white;
 }
 
-section{
-    color:white;
-    height: 60vh;
-    border-bottom: 1px solid white;
+span{
+    color:orange;
+}
+.carousel-control-prev,.carousel-control-next{
+    margin:-50px;
+}
+.carousel-item{
+    margin-top:59px;
+    height:60vh;
+    width: 100%;
 }
 .main-desc{
-    margin-top: 50px;
+    margin:100px;
+    color:white;
     text-transform: uppercase;
+}
+.main-desc h1{
+    font-weight: 500;
     letter-spacing: 7px;
-    position:absolute;
-    margin-left: 50px;
 }
-.main h1{
-    font-size: 50px;
-}
-.main p{
+.main-desc p{
+    color:orange;
     letter-spacing: 4px;
-}
-.main img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    
-}
-.imagemain{
-    height: 100%;
-    width: 100%;
-    margin-left:25%;
-    background:linear-gradient(to right,black,transparent), 
-    url(img/kurupp.jpg);
-    
 }
 .mainbtn{
     letter-spacing: 1px;
@@ -86,24 +62,42 @@ section{
     background: white;
     color:black;
 }
-
 .recommended{
+    height: 70vh;
+    background-color: rgb(49, 49, 49);
+}
+.rec{
+    height: 60vh;
     display: flex;
-    margin-top: 10px;
+    align-items: center;
+    flex-direction: column;
 }
-.recommended img{
-    border-radius: 15px;
+.rec:hover{
+    transform:translateY(-15px);
+    transition: ease-in .1s;
+}
+.rec img{
     height: 50vh;
-    width: 220px;
+    width: 270px;
+    margin-top: 50px;
     object-fit: cover;
-    margin-left: 35px;
+    border-radius: 15px;
 }
-
-.recommended img:hover{
-    transform: translateY(-15px);
-    transition: ease-in .15s;
+.rec h1{
+    color:white;
+    font-size:1.7vw;
+    font-weight: 300;
+    margin-top: 10px;
+    text-transform: none;
+    text-align: center;
 }
-
+.rec p{
+    color:white;
+    font-size:15px;
+    font-weight: 300;
+    text-transform: none;
+    text-align: center;
+}
 footer{
     height: 10vh;
     width: 100%;
@@ -117,9 +111,3 @@ footer p{
     font-size: 15px;
     padding: 20px;
 }
-
-/*----------------------------------------------------------------------------------------------------------- */
-
-
-
-

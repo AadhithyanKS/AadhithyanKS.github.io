@@ -18,13 +18,12 @@
     <link rel="stylesheet" href="style.css">
     <title>Home</title>
 </head>
-
 <body>
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid ">
           <a class="navbar-brand" href="#">GRAB<span>ATICKET</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-dark navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mx-auto">
@@ -38,45 +37,98 @@
               <li class="nav-item">
                 <a class="nav-link">Series</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
             </ul>
           </div>
         </div>
     </nav>
-    <section>
-        
-                    <div class="main">
-                        <div class="main-desc">
-                            <h1>Kuruppu</h1>
-                            <p>Action,Drama | 2021 |</p>
-                            <a href="booking.html" class='mainbtn'>Book Tickets</a>
-                            <a href="#" class='mainbtn'>Watch Trailer</a>
-                        </div>
-                        <div class="imagemain"></div>
-                    </div>
-               
-        <!--<div class="recommended">
-            <div class="rec1"><a href=""></a><img
-                    src="https://www.nairtejas.com/wp-content/uploads/2019/12/Helen-Malayalam-film-poster-by-Prathool-NT-707x1024.jpg"
-                    alt=""></a></div>
-            <div class="rec2"><a href=""><img
-                        src="https://www.nairtejas.com/wp-content/uploads/2019/12/Virus-Malayalam-film-poster-by-Popkon-702x1024.jpg"
-                        alt=""></a></div>
-            <div class="rec3"><a href=""><img
-                        src="https://www.nairtejas.com/wp-content/uploads/2019/12/Android-Kunjappan-poster-by-Oldmonks.jpg"
-                        alt=""></a></div>
-            <div class="rec1"><a href=""><img
-                        src="https://www.nairtejas.com/wp-content/uploads/2019/12/Helen-Malayalam-film-poster-by-Prathool-NT-707x1024.jpg"
-                        alt=""></a></div>
-            <div class="rec2"><a href=""><img
-                        src="https://www.nairtejas.com/wp-content/uploads/2019/12/Virus-Malayalam-film-poster-by-Popkon-702x1024.jpg"
-                        alt=""></a></div>
-        </div>-->
-    </section>
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="background:linear-gradient(to right,black,rgba(0, 0, 0, 0.75),transparent),url(img/kurupp.jpg);">
+                <div class="main-desc col-md-4">
+                    <h1>Kuruppu</h1>
+                    <p>Action,Drama | 2021 |</p>
+                    <a href="booking.html" class='mainbtn'>Book Tickets</a>
+                    <a href="#" class='mainbtn'>Watch Trailer</a>
+                </div>
+            </div>
+            <div class="carousel-item" style="background:linear-gradient(to right,black,transparent),url(img/kurupp2.jpg);">
+                <div class="main-desc">
+                    <h1>Kuruppu</h1>
+                    <p>Action,Drama | 2021 |</p>
+                    <a href="booking.html" class='mainbtn'>Book Tickets</a>
+                    <a href="#" class='mainbtn'>Watch Trailer</a>
+                </div>
+            </div>
+            <div class="carousel-item" style="background:linear-gradient(to right,black,transparent),url(img/bg2.jpg);">
+                <div class="main-desc">
+                    <h1>Kuruppu</h1>
+                    <p>Action,Drama | 2021 |</p>
+                    <a href="booking.html" class='mainbtn'>Book Tickets</a>
+                    <a href="#" class='mainbtn'>Watch Trailer</a>
+                </div>
+            </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    </div>
+
+    <div class="recommended">
+        <div class="row">
+            <div class="rec col">
+                <div class="rec1">
+                    <a href=""><img src="https://www.nairtejas.com/wp-content/uploads/2019/12/Helen-Malayalam-film-poster-by-Prathool-NT-707x1024.jpg" alt=""></a>
+                    <h1>Helen</h1>
+                    <p>Thriller | Comedy</p>
+                </div>
+            </div>
+            <div class="rec col">
+                <div class="rec1">
+                    <a href=""><img src="img/spider.jpg" alt=""></a>
+                    <h1>SpiderMan</h1>
+                    <p>Heroic | Action</p>
+                </div>
+            </div>
+            <div class="rec col">
+                <div class="rec1">
+                    <a href=""><img src="img/aja.jpg" alt=""></a>
+                    <h1>Ajagajanantharam</h1>
+                    <p>Action | Drama</p>
+                </div>
+            </div>
+            <div class="rec col">
+                <div class="rec1">
+                    <a href=""><img src="img/bhishma.jpg" alt=""></a>
+                    <h1>BhishmaParvam</h1>
+                    <p>Drama | Mass</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <footer>
         <center>
             <p>Copyright reserved to Aadhithyan KS</p>
         </center>
     </footer>
 </body>
-
 </html>
